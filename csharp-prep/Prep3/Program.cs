@@ -10,9 +10,13 @@ class Program
         Random randomGenerator = new Random();
         int magicNumber = randomGenerator.Next(1, 101);
 
+        Console.WriteLine();
+
         Console.WriteLine("Welcom to the number guessing game");
-        Console.WriteLine("A number between 1 and 100 will be generated");
-        Console.WriteLine("If you guess the correct number, you win!n/");
+        Console.WriteLine("A number between 1 and 101 will be generated");
+        Console.WriteLine("If you guess the correct number, you win!");
+
+        Console.WriteLine();
 
         int guess;
         int attempts = 0;
