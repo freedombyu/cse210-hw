@@ -7,9 +7,12 @@ class Program
         // For the program will continue asking
         // for the guess number and give the attempts number
 
-
         Random randomGenerator = new Random();
-        int magicNumber = randomGenerator.Next(1, 11);
+        int magicNumber = randomGenerator.Next(1, 101);
+
+        Console.WriteLine("Welcom to the number guessing game");
+        Console.WriteLine("A number between 1 and 100 will be generated");
+        Console.WriteLine("If you guess the correct number, you win!n/");
 
         int guess;
         int attempts = 0;
