@@ -28,10 +28,10 @@ class Program
         else
         {
             int sum = numbers.Sum();
-            float average = ((float)sum) / numbers.Count;
+            double average = ((double)sum) / numbers.Count;
             int largest = numbers.Max();
             int smallestPositive = numbers.Where(x => x > 0).Min();
-            List<int> sortedNumbers = numbers.OrderByDescending(x => x).ToList();
+            List<int> Numbers = numbers.OrderByDescending(x => x).ToList();
 
             Console.WriteLine($"The sum is: {sum}");
             Console.WriteLine($"The average is: {average}");
