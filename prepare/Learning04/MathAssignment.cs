@@ -10,7 +10,7 @@ class MathAssignment : Assignment
         this.Problems = problems;
     }
 
-    public override string GetSummary()
+    public string GetHomewor()
     {
         return $"Math Assignment for {StudentName} on {Topic}: TextbookSection - {TextbookSection}, Problems - {Problems}";
     }
