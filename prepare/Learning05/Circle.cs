@@ -1,11 +1,9 @@
 public class Circle : Shape
 {
-    private string _Color;
     private double _Radius;
 
-    public Circle(string color, double radius) 
+    public Circle(string color, double radius) : base(color)
     {
-        _Color = color;
         _Radius = radius;
     }
 

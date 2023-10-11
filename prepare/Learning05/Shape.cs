@@ -1,7 +1,8 @@
-public abstract class Shape
+using System;
+
+namespace Shape
 {
-    // Shape class, the base class for all shapes
-    class _Shape
+    abstract class _Shape
     {
         private string _Color;
 
@@ -11,9 +12,7 @@ public abstract class Shape
         }
 
         // Method to compute area, to be overridden by derived classes
-        public virtual double GetArea()
-        {
-            return 0;
-        }
+        public abstract double GetArea();
+    
     }
 }

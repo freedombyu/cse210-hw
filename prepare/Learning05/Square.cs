@@ -1,11 +1,9 @@
 class Square : Shape
 {
-    private string _Color;
     private double _Side;
 
-    public Square(string color, double side)
+    public Square(string color, double side) : base(color)
     {
-        _Color = color;
         _Side = side;
     }
 

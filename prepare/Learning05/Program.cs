@@ -15,7 +15,7 @@ class Program
 
         foreach (var shape in shapes)
         {
-            Console.WriteLine($"Shape: {shape.GetType().Name}, Color: {((dynamic)shape).Color}, Area: {shape.GetArea()}");
+            Console.WriteLine($"Shape: {shape.GetType().Name}, Color: {shape.Color}, Area: {shape.GetArea()}");
         }
     }
 }
